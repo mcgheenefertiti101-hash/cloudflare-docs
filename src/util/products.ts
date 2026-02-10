@@ -1,6 +1,6 @@
 import { getCollection } from "astro:content";
 
-export const products = await getCollection("products");
+export const products = await getCollection("directory");
 
 export const productsByGroup = Object.entries(
 	products

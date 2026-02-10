@@ -23,7 +23,7 @@ async function uniqueProducts(notes: Array<CollectionEntry<"changelog">>) {
 
 	return Promise.all(
 		unique.map(async (product) => {
-			return getEntry("products", product)!;
+			return getEntry("directory", product)!;
 		}),
 	);
 }

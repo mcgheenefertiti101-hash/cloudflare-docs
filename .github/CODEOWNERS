@@ -181,7 +181,7 @@ package.json @cloudflare/content-engineering
 # MoQ
 
 /src/content/docs/moq/ @renandincer @nils-ohlmeier @cloudflare/pcx-technical-writing
-/src/content/products/moq.yml @renandincer @nils-ohlmeier @cloudflare/pcx-technical-writing
+/src/content/directory/moq.yml @renandincer @nils-ohlmeier @cloudflare/pcx-technical-writing
 
 # Performance products
 

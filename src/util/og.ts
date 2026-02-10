@@ -40,7 +40,7 @@ export async function getOgImage(entry: CollectionEntry<"docs" | "changelog">) {
 		return DEFAULT_OG_IMAGE;
 	}
 
-	const product = await getEntry("products", section);
+	const product = await getEntry("directory", section);
 
 	if (product && product.data.product.group) {
 		const image =

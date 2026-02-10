@@ -35,7 +35,7 @@ const segments = slug.split("/");
 
 for (let i = 0; i < segments.length; i++) {
 	if (i === 0) {
-		const entry = await getEntry("products", segments[0]);
+		const entry = await getEntry("directory", segments[0]);
 
 		let title = segments[0];
 		if (entry) {
